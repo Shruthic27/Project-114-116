@@ -1,0 +1,26 @@
+h3{
+    font-size: 25 !important;
+}
+.btn-danger:hover{
+    background-color:yellowgreen;
+}
+canvas{
+    background-color: white;
+
+    animation-name: clown_nose;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes clown_nose {
+    10% {box-shadow: 15px 15px 35px darkorchid;}
+    20% {box-shadow: 15px 15px 35px crimson;}
+    30% {box-shadow: 15px 15px 35px cyan;}
+    40% {box-shadow: 15px 15px 35px darkmagenta;}
+    50% {box-shadow: 15px 15px 35px hotpink;}
+    60% {box-shadow: 15px 15px 35px indigo;}
+    70% {box-shadow: 15px 15px 35px maroon;}
+    80% {box-shadow: 15px 15px 35px violet;}
+    90% {box-shadow: 15px 15px 35px mediumvioletred;}
+    100% {box-shadow: 15px 15px 35px navy;}
+}
